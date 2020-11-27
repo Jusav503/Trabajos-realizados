@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>23/11/2020</title>
+    <script src="/JQuery/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/pokedex.css">
+	<link rel="stylesheet" type="text/css" href="/css/pokedexresponsive.css">
+    <script src="https://kit.fontawesome.com/eb731fde98.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"> 
+         <i class="fas fa-bars"></i>
+        </label>
+        
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">Types of pokemons</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Gallery</a></li>
+             
+        </ul>
+        <form>
+            <input class="filtroPoison" type="checkbox">
+            <label for="filtroPoison">Poison</label>
+
+            <input class="filtroFire" type="checkbox">
+            <label for="filtroFire">Fire</label>
+
+            <input class="filtroGrass" type="checkbox">
+            <label for="filtroGrass">Grass</label>
+
+            <input class="filtroBug" type="checkbox">
+            <label for="filtroBug">Bug</label>
+
+            <input class="filtroWater" type="checkbox">
+            <label for="filtroWater">Water</label>
+
+            <input class="filtroNormal" type="checkbox">
+            <label for="filtroNormal">Normal</label>
+
+            <input class="filtroFlying" type="checkbox">
+            <label for="filtroFlying">Flying</label>
+
+            <input class="filtroElectric" type="checkbox">
+            <label for="filtroElectric">Electric</label>
+
+            <input class="filtroGround" type="checkbox">
+            <label for="filtroGround">Ground</label>
+
+            <input class="filtroFighting" type="checkbox">
+            <label for="filtroFighting">Fighting</label>
+
+            <input class="closeAll" type="checkbox">
+            <label for="closeAll">Close All</label>
+
+        </form>
+    </nav>
+    <div id="main"></div>
+
+	
+    <script src="/JQuery/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="/js/pokedex.js"></script>
+    <script type="text/javascript" src="/js/pokedexmain.js"></script>
+    <script src="/json/pokedexjs.json"></script>
+</body>
+</html>

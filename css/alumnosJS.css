@@ -1,0 +1,17 @@
+table th {
+	font-weight: bold;
+	border: 1px black solid;
+	background-color: rgb(132, 172, 245);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table td {
+	border: 1px solid #333;
+	background-color: white;
+}
+
+table {
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color:gray;
+}

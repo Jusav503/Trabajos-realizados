@@ -1,0 +1,36 @@
+table{
+    width: 70%
+}
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+ul > li{
+    display: inline-block;
+    padding-left: 10px;
+    text-align: center;
+}
+ul > li:hover{
+    background-color: aquamarine;
+}
+ul > li:hover > a{
+    color: white;
+}
+ul > li > a {
+    text-decoration: none;
+}
